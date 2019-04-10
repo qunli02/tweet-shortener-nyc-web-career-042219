@@ -45,7 +45,7 @@ end
 
 def shortened_tweet_truncator(line)
   if selective_tweet_shortener(line) > 140
-    selective_tweet_shortener(line)[0..139] + "..."
+    selective_tweet_shortener(line)[0..134] + "..."
   else
     line
   end
